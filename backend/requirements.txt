@@ -1,0 +1,9 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+transformers>=4.40
+torch>=2.2
+numpy
+joblib
+# Pin scikit-learn to the version used in Colab (joblib files can break across versions):
+scikit-learn

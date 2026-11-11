@@ -1,0 +1,3 @@
+# Optional: only needed to serve the BiLSTM + Attention model.
+# Pin to the TensorFlow/Keras versions used in Colab.
+tensorflow-cpu
