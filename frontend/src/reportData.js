@@ -9,11 +9,15 @@ export const REPORT = {
   models: [
     { name: "BERT", accuracy: "92.66%", f1: "0.9047", external: 0.663 },
     { name: "TF-IDF + Logistic Regression", accuracy: "84.75%", f1: "0.8051", external: 0.435 },
-    { name: "BiLSTM + Attention", accuracy: null, f1: null, external: 0.461 },
+    { name: "BiLSTM + Attention", accuracy: "83.01%", f1: "0.7753", external: 0.461 },
   ],
   errors: { total: 38, neutralPositive: 23 },
   // Rows = actual, columns = predicted, order: negative, neutral, positive. Example: [[a,b,c],[d,e,f],[g,h,i]]
-  confusion: null,
+  confusion: [
+  [54, 5, 4],
+  [0, 305, 17],
+  [6, 6, 121]
+],
   // Real mistakes from Section 6: [{ text: "...", actual: "neutral", predicted: "positive" }]
   examples: [],
 };
