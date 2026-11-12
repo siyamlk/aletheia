@@ -173,13 +173,10 @@ I wanted the models to be accessible beyond a Jupyter notebook.
 
 Aletheia uses a React frontend connected to a FastAPI backend, allowing users to interact with the trained models through a single interface.
 
-<p align="center">
-  <a href="screenshots/dashboard.png" target="_blank">
-    <img src="screenshots/dashboard.png"
-         alt="Aletheia financial sentiment analysis dashboard"
-         width="100%" />
-  </a>
-</p>
+```mermaid
+flowchart LR
+  A@{ img: "https://raw.githubusercontent.com/siyamlk/aletheia/main/screenshots/dashboard.png", label: "", pos: "b", w: 1808, h: 667, constraint: "off" }
+```
 <p align="center">
   <sub><em>Aletheia: An interactive financial sentiment analysis platform.</em></sub>
 </p>
@@ -190,13 +187,10 @@ The application currently includes:
 
 Analyse individual financial sentences and inspect their predicted sentiment.
 
-<p align="center">
-  <a href="screenshots/sentence-lab.png" target="_blank">
-    <img src="screenshots/sentence-lab.png"
-         alt="Aletheia Sentence Lab interface"
-         width="100%" />
-  </a>
-</p>
+```mermaid
+flowchart LR
+  A@{ img: "https://raw.githubusercontent.com/siyamlk/aletheia/main/screenshots/sentence-lab.png", label: "", pos: "b", w: 1821, h: 792, constraint: "off" }
+```
 <p align="center">
   <sub><em>Sentence Lab: Analysing individual financial statements.</em></sub>
 </p>
@@ -205,29 +199,22 @@ Analyse individual financial sentences and inspect their predicted sentiment.
 
 Explore word-level influence within a prediction to better understand how the input contributes to the output.
 
-<p align="center">
-  <a href="screenshots/word-influence.png" target="_blank">
-    <img src="screenshots/word-influence.png"
-         alt="Aletheia word influence visualisation"
-         width="100%" />
-  </a>
-</p>
+```mermaid
+flowchart LR
+  A@{ img: "https://raw.githubusercontent.com/siyamlk/aletheia/main/screenshots/word-influence.png", label: "", pos: "b", w: 1097, h: 112, constraint: "off" }
+```
 <p align="center">
   <sub><em>Word Influence: Exploring the contribution of individual words to a prediction.</em></sub>
 </p>
-
 
 ### Batch Analysis
 
 Process multiple financial sentences together rather than analysing them individually.
 
-<p align="center">
-  <a href="screenshots/batch-analysis.png" target="_blank">
-    <img src="screenshots/batch-analysis.png"
-         alt="Aletheia batch sentiment analysis interface"
-         width="100%" />
-  </a>
-</p>
+```mermaid
+flowchart LR
+  A@{ img: "https://raw.githubusercontent.com/siyamlk/aletheia/main/screenshots/batch-analysis.png", label: "", pos: "b", w: 957, h: 555, constraint: "off" }
+```
 <p align="center">
   <sub><em>Batch Analysis: Processing multiple financial sentences together.</em></sub>
 </p>
@@ -236,13 +223,10 @@ Process multiple financial sentences together rather than analysing them individ
 
 Explore sentiment across longer financial text.
 
-<p align="center">
-  <a href="screenshots/article-scanner.png" target="_blank">
-    <img src="screenshots/article-scanner.png"
-         alt="Aletheia Article Scanner interface"
-         width="100%" />
-  </a>
-</p>
+```mermaid
+flowchart LR
+  A@{ img: "https://raw.githubusercontent.com/siyamlk/aletheia/main/screenshots/article-scanner.png", label: "", pos: "b", w: 1797, h: 797, constraint: "off" }
+```
 <p align="center">
   <sub><em>Article Scanner: Analysing sentiment across longer financial text.</em></sub>
 </p>
@@ -251,13 +235,10 @@ Explore sentiment across longer financial text.
 
 Review model performance and compare the different approaches used in the project.
 
-<p align="center">
-  <a href="screenshots/model-report.png" target="_blank">
-    <img src="screenshots/model-report.png"
-         alt="Aletheia model performance report"
-         width="100%" />
-  </a>
-</p>
+```mermaid
+flowchart LR
+  A@{ img: "https://raw.githubusercontent.com/siyamlk/aletheia/main/screenshots/model-report.png", label: "", pos: "b", w: 1840, h: 738, constraint: "off" }
+```
 <p align="center">
   <sub><em>Model Report: Comparing model performance and evaluation results.</em></sub>
 </p>
